@@ -4,6 +4,7 @@ environment: prod
 url: "tunguyenthaison.github.io"  # Sitemap base URL.
 baseurl: "/lost" # the subpath of your site, e.g. /blog/
 plugins:
+  - gh-pages
   - jekyll-scholar
   - jekyll-sitemap
   - jekyll-feed
