@@ -1,3 +1,7 @@
+# bundle exec jekyll serve --lsi 
+
+bundle exec jekyll build --lsi 
+
 # check if docs/ is empty
 if [ -z "$(ls -A docs/)" ]; then
    echo "The docs/ folder is empty"
